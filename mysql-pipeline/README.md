@@ -141,11 +141,3 @@ SELECT * FROM shop_analytics.dq_check_log ORDER BY dq_id DESC;
 - data quality validation
 - reporting-ready warehouse outputs
 
-## Next possible improvements
-
-- incremental loading
-- staging schema
-- stronger error handling
-- slowly changing dimensions
-- separate source and analytics servers
-- external orchestration
