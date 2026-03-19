@@ -1,9 +1,15 @@
-__pycache__/
-*.pyc
-.env
-.venv/
-venv/
-.idea/
-.vscode/
+# OS
 .DS_Store
 Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Logs / temp
+*.log
+*.tmp
+
+# Local exports
+exports/
+screenshots/
