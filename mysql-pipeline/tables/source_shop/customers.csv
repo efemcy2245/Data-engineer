@@ -1,0 +1,8 @@
+customer_id,first_name,last_name,email,phone,country,city,signup_date
+1,Alice,Rossi,alice.rossi@example.com,+39-333-1001001,Italy,Milan,"2026-01-10 09:15:00"
+2,Marco,Bianchi,marco.bianchi@example.com,+39-333-1001002,Italy,Rome,"2026-01-15 11:40:00"
+3,Sofia,Muller,sofia.muller@example.com,+49-170-2002003,Germany,Berlin,"2026-02-01 14:10:00"
+4,John,Smith,john.smith@example.com,+44-7700-3003004,"United Kingdom",London,"2026-02-05 10:05:00"
+5,Elena,Garcia,elena.garcia@example.com,+34-600-4004005,Spain,Madrid,"2026-02-11 16:25:00"
+6,Luca,Bianchi,luca.bianchi@example.com,"+39 333 1112233",Italy,Milan,"2026-03-19 00:00:00"
+7,Sara,Romano,sara.romano@example.com,"+39 333 4445566",Italy,Rome,"2026-03-19 00:00:00"

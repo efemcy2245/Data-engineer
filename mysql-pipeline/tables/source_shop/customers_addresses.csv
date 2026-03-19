@@ -1,0 +1,11 @@
+address_id,customer_id,address_type,address_line1,address_line2,postal_code,city,country,created_at
+1,1,billing,"Via Torino 12",NULL,20123,Milan,Italy,"2026-03-19 10:37:54"
+2,1,shipping,"Via Torino 12","Scala A",20123,Milan,Italy,"2026-03-19 10:37:54"
+3,2,billing,"Via Appia 88",NULL,00183,Rome,Italy,"2026-03-19 10:37:54"
+4,2,shipping,"Via Appia 88","Interno 4",00183,Rome,Italy,"2026-03-19 10:37:54"
+5,3,billing,"Alexanderplatz 5",NULL,10178,Berlin,Germany,"2026-03-19 10:37:54"
+6,3,shipping,"Alexanderplatz 5","Floor 2",10178,Berlin,Germany,"2026-03-19 10:37:54"
+7,4,billing,"221B Baker Street",NULL,"NW1 6XE",London,"United Kingdom","2026-03-19 10:37:54"
+8,4,shipping,"221B Baker Street","Flat B","NW1 6XE",London,"United Kingdom","2026-03-19 10:37:54"
+9,5,billing,"Calle Mayor 18",NULL,28013,Madrid,Spain,"2026-03-19 10:37:54"
+10,5,shipping,"Calle Mayor 18","Door 3",28013,Madrid,Spain,"2026-03-19 10:37:54"

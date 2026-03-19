@@ -1,0 +1,13 @@
+product_id,category_id,product_name,sku,unit_price,stock_quantity,is_active,created_at
+9,1,"Mechanical Keyboard",TECH-KEY-001,89.99,50,1,"2026-03-02 10:00:00"
+10,1,"Wireless Mouse",TECH-MOU-002,39.99,80,1,"2026-03-02 10:10:00"
+11,1,"27 Inch Monitor",TECH-MON-003,249.99,25,1,"2026-03-02 10:20:00"
+12,2,"Office Chair",FURN-CHA-004,199.99,20,1,"2026-03-02 10:30:00"
+13,2,"Desk Lamp",FURN-LAM-005,45.00,35,1,"2026-03-02 10:40:00"
+14,2,"Standing Desk",FURN-DSK-006,399.99,10,1,"2026-03-02 10:50:00"
+15,3,"Notebook Pack",STAT-NBK-007,12.50,120,1,"2026-03-02 11:00:00"
+16,3,"Pen Set",STAT-PEN-008,8.90,150,1,"2026-03-02 11:10:00"
+17,3,"Sticky Notes",STAT-STK-009,4.50,200,1,"2026-03-02 11:20:00"
+18,4,"USB-C Hub",ACC-HUB-010,29.99,60,1,"2026-03-02 11:30:00"
+19,4,"Laptop Stand",ACC-STD-011,34.50,40,1,"2026-03-02 11:40:00"
+20,4,"Webcam Cover",ACC-WBC-012,6.99,300,1,"2026-03-02 11:50:00"

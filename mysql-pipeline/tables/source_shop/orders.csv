@@ -1,0 +1,7 @@
+order_id,customer_id,order_date,order_status,order_total
+1,1,"2026-03-15 10:35:00",delivered,0.00
+2,2,"2026-03-15 14:15:00",pending,0.00
+3,3,"2026-03-16 09:25:00",shipped,0.00
+4,4,"2026-03-16 16:50:00",cancelled,0.00
+5,5,"2026-03-17 11:05:00",paid,0.00
+6,1,"2026-03-17 13:45:00",delivered,0.00
