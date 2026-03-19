@@ -1,0 +1,8 @@
+customer_key,customer_id,customer_name,customer_email,customer_country,customer_city
+1,1,"Alice Rossi",alice.rossi@example.com,Italy,Milan
+2,2,"Marco Bianchi",marco.bianchi@example.com,Italy,Rome
+3,3,"Sofia Muller",sofia.muller@example.com,Germany,Berlin
+4,4,"John Smith",john.smith@example.com,"United Kingdom",London
+5,5,"Elena Garcia",elena.garcia@example.com,Spain,Madrid
+6,6,"Luca Bianchi",luca.bianchi@example.com,Italy,Milan
+7,7,"Sara Romano",sara.romano@example.com,Italy,Rome
