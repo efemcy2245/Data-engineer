@@ -1,0 +1,34 @@
+2026-03-25 17:26:48,796 | INFO | Starting ingestion...
+2026-03-25 17:26:48,796 | INFO | Project: shop-analytics-level-3
+2026-03-25 17:26:48,796 | INFO | Dataset: raw
+2026-03-25 17:26:48,796 | INFO | Tables to load: ['categories', 'customers', 'customers_addresses', 'order_items', 'orders', 'payments', 'products']
+2026-03-25 17:26:48,880 | INFO | Extracting MySQL table: categories
+2026-03-25 17:26:48,902 | INFO | Extracted 4 rows from categories
+2026-03-25 17:26:48,902 | INFO | Loading into BigQuery table: raw_categories
+2026-03-25 17:26:53,251 | INFO | Caricate 4 righe in shop-analytics-level-3.raw.raw_categories
+2026-03-25 17:26:53,251 | INFO | Extracting MySQL table: customers
+2026-03-25 17:26:53,266 | INFO | Extracted 7 rows from customers
+2026-03-25 17:26:53,266 | INFO | Loading into BigQuery table: raw_customers
+2026-03-25 17:26:58,473 | INFO | Caricate 7 righe in shop-analytics-level-3.raw.raw_customers
+2026-03-25 17:26:58,473 | INFO | Extracting MySQL table: customers_addresses
+2026-03-25 17:26:58,489 | INFO | Extracted 10 rows from customers_addresses
+2026-03-25 17:26:58,489 | INFO | Loading into BigQuery table: raw_customers_addresses
+2026-03-25 17:27:00,826 | INFO | Caricate 10 righe in shop-analytics-level-3.raw.raw_customers_addresses
+2026-03-25 17:27:00,826 | INFO | Extracting MySQL table: order_items
+2026-03-25 17:27:00,826 | INFO | Extracted 12 rows from order_items
+2026-03-25 17:27:00,826 | INFO | Loading into BigQuery table: raw_order_items
+2026-03-25 17:27:05,675 | INFO | Caricate 12 righe in shop-analytics-level-3.raw.raw_order_items
+2026-03-25 17:27:05,675 | INFO | Extracting MySQL table: orders
+2026-03-25 17:27:05,691 | INFO | Extracted 6 rows from orders
+2026-03-25 17:27:05,691 | INFO | Loading into BigQuery table: raw_orders
+2026-03-25 17:27:09,186 | INFO | Caricate 6 righe in shop-analytics-level-3.raw.raw_orders
+2026-03-25 17:27:09,186 | INFO | Extracting MySQL table: payments
+2026-03-25 17:27:09,186 | INFO | Extracted 6 rows from payments
+2026-03-25 17:27:09,186 | INFO | Loading into BigQuery table: raw_payments
+2026-03-25 17:27:12,562 | INFO | Caricate 6 righe in shop-analytics-level-3.raw.raw_payments
+2026-03-25 17:27:12,562 | INFO | Extracting MySQL table: products
+2026-03-25 17:27:12,578 | INFO | Extracted 12 rows from products
+2026-03-25 17:27:12,578 | INFO | Loading into BigQuery table: raw_products
+2026-03-25 17:27:15,781 | INFO | Caricate 12 righe in shop-analytics-level-3.raw.raw_products
+2026-03-25 17:27:15,791 | INFO | Durata totale run: 26.91 secondi
+2026-03-25 17:27:15,794 | INFO | Ingestion completed successfully.
