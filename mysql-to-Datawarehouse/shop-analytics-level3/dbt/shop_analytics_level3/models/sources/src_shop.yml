@@ -1,0 +1,29 @@
+version: 2
+
+sources:
+  - name: src_shop
+    description: "Raw ingestion layer loaded from MySQL into BigQuery."
+    database: "{{ env_var('GCP_PROJECT_ID') }}"
+    schema: raw
+
+    tables:
+      - name: categories
+        identifier: raw_categories
+
+      - name: customers
+        identifier: raw_customers
+
+      - name: customer_addresses
+        identifier: raw_customers_addresses
+
+      - name: order_items
+        identifier: raw_order_items
+
+      - name: orders
+        identifier: raw_orders
+
+      - name: payments
+        identifier: raw_payments
+
+      - name: products
+        identifier: raw_products
