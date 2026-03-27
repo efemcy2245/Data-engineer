@@ -11,9 +11,7 @@ This repository collects visual material and study support for the progression f
 │   ├── level-2-data-engineer.png
 │   ├── level-3-data-engineer.png
 │   └── student-databases.png
-├── docs/
-│   ├── data-engineer-roadmap-english.pdf
-│   └── exercise-data-engineer.docx
+│
 └── README.md
 ```
 
