@@ -1,0 +1,115 @@
+version: 2
+
+sources:
+  - name: raw
+    description: "Raw tables loaded from MySQL source_shop into BigQuery raw dataset by Python ingestion."
+    database: shop-analytics-level-3
+    schema: raw
+    tables:
+      - name: raw_categories
+        description: "Raw product categories."
+        columns:
+          - name: category_id
+            data_tests:
+              - not_null
+              - unique
+          - name: category_name
+            data_tests:
+              - not_null
+
+      - name: raw_customers
+        description: "Raw customers."
+        columns:
+          - name: customer_id
+            data_tests:
+              - not_null
+              - unique
+          - name: first_name
+            data_tests:
+              - not_null
+          - name: last_name
+            data_tests:
+              - not_null
+          - name: email
+            data_tests:
+              - not_null
+
+      - name: raw_customers_addresses
+        description: "Raw customer addresses. Kept lightly tested for now because staging is still pass-through."
+
+      - name: raw_order_items
+        description: "Raw order items at one row per order line."
+        columns:
+          - name: order_item_id
+            data_tests:
+              - not_null
+              - unique
+          - name: order_id
+            data_tests:
+              - not_null
+          - name: product_id
+            data_tests:
+              - not_null
+          - name: quantity
+            data_tests:
+              - not_null
+          - name: unit_price
+            data_tests:
+              - not_null
+
+      - name: raw_orders
+        description: "Raw orders header table."
+        columns:
+          - name: order_id
+            data_tests:
+              - not_null
+              - unique
+          - name: customer_id
+            data_tests:
+              - not_null
+          - name: order_date
+            data_tests:
+              - not_null
+          - name: order_status
+            data_tests:
+              - not_null
+
+      - name: raw_payments
+        description: "Raw payments."
+        columns:
+          - name: payment_id
+            data_tests:
+              - not_null
+              - unique
+          - name: order_id
+            data_tests:
+              - not_null
+          - name: payment_method
+            data_tests:
+              - not_null
+          - name: payment_status
+            data_tests:
+              - not_null
+          - name: amount
+            data_tests:
+              - not_null
+
+      - name: raw_products
+        description: "Raw products."
+        columns:
+          - name: product_id
+            data_tests:
+              - not_null
+              - unique
+          - name: category_id
+            data_tests:
+              - not_null
+          - name: product_name
+            data_tests:
+              - not_null
+          - name: sku
+            data_tests:
+              - not_null
+          - name: unit_price
+            data_tests:
+              - not_null
